@@ -45,6 +45,8 @@ function serve(chai: kulhadChai | cuttingChai) {
     }
 }
 
+// console.log(serve(new kulhadChai()));
+
 type ChaiOrder = {
     type: string,
     sugar: number
